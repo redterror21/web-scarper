@@ -26,7 +26,7 @@ else:
 
 # FINAL CHECK
 if table is None:
-    print("❌ Schedule table NOT found on this page")
+    print(" Schedule table NOT found on this page")
 else:
     headers = [th.text.strip() for th in table.find_all("th")]
     print("Headers:", headers)
